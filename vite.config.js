@@ -1,13 +1,19 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+
 export default defineConfig({
   plugins: [react()],
 })
 export default {
   server: {
-    host: '0.0.0.0',  // Allows connections from any IP
-    port: 5173,        // Default port for Vite
+    host: '0.0.0.0', 
+    port: 5173,        
   }
 }
+
+export default {
+  base: '/E-Commerce-Application/', 
+ 
+};
+
