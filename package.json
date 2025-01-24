@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://akhil05hub.github.io/E-Commerce-Application", 
+  "homepage": "https://akhil05hub.github.io/E-Commerce-Application",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -42,4 +42,3 @@
     "vite": "^4.4.9"
   }
 }
-
