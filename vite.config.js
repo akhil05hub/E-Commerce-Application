@@ -12,8 +12,7 @@ export default {
   }
 }
 
-export default {
-  base: '/E-Commerce-Application/', 
- 
-};
+export default defineConfig({
+  base: '/E-Commerce-Application/',
+})
 
