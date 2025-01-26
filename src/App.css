@@ -6,4 +6,18 @@ body {
   * {
     box-sizing: border-box;
   }
+/* Styles for larger screens (desktop) */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styles for smaller screens (mobile) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
   
