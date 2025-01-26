@@ -43,7 +43,7 @@ const Cards = () => {
                 <p className="text-lg font-bold text-blue-600">${price} <CountUp end={price}/></p>
                 <div className="flex justify-center space-x-4 mt-4">
                   <Link to='/address'>
-                    <button className='px-7 py-2 text-white bg-orange-500 hover:bg-sky-500 rounded-lg font-bold'>
+                    <button className='px-6 py-2 text-white bg-orange-500 hover:bg-sky-500 rounded-lg font-bold'>
                       BUY
                     </button>
                   </Link>
