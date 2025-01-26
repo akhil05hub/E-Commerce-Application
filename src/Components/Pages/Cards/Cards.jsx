@@ -49,7 +49,7 @@ const Cards = () => {
                   </Link>
                   <button
                     onClick={() => handleAddToCart({ id, title, price, image, category })}
-                    className='px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg font-bold'>
+                    className='px-2 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg font-bold'>
                     Add to Cart
                   </button>
                 </div>
