@@ -60,7 +60,7 @@ const Men = () => {
                 </p>
                 <div className="flex justify-center space-x-4 mt-4">
                   <Link to="/address">
-                    <button className="px-8 py-2 text-white bg-orange-500 hover:bg-sky-500 rounded-lg font-bold">
+                    <button className="px-4 py-2 text-white bg-orange-500 hover:bg-sky-500 rounded-lg font-bold">
                       BUY
                     </button>
                   </Link>
